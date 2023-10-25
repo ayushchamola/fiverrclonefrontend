@@ -1,0 +1,39 @@
+.reviews {
+  margin-top: 50px;
+
+  .add {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .addForm {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        padding: 20px;
+      }
+      select {
+        width: 200px;
+        padding: 5px;
+        align-self: flex-end;
+      }
+      button {
+        width: 100px;
+        align-self: flex-end;
+        color: white;
+        background-color: #1dbf73;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  hr {
+    border: 0.5px solid lightgray;
+    margin: 50px 0px;
+    height: 0;
+  }
+}
